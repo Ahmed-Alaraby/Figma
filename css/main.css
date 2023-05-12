@@ -11,14 +11,15 @@
 }
 .navbar{
   margin: 30px 140px ;
-  height: 52px;
+  height: 70px;
   color: var(--main-color);
   text-transform: capitalize;
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
+  background-color: white;
 }
-@media (max-width:767px) {
+@media(max-width:767px){
   .navbar{
     margin: 15px 15px;
   }
@@ -35,7 +36,7 @@
 }
 .navbar .navbar-nav .dropdown-menu li a{
   color: var(--main-color);
-  padding: 5px 15px;
+  padding: 10px 20px;
 }
 .navbar form .btn:first-of-type,
 .navbar form .btn:last-of-type{
@@ -118,4 +119,89 @@
 /* start about */
 .about{
   padding-top: 200px;
+  padding-bottom: 200px;
+}
+.about .container .image{
+  flex-basis: 30%;
+}
+.about .container .image img{
+  width:580px;
+  height: 500px;
+}
+@media (max-width:767px) {
+  .about .container .image{
+    margin-right:0px;
+  }
+  .about .container .image img{
+    width: 100%;
+    height: 100%;
+  }
+  .about .container .text .title{
+    font-size: 40px!important;
+  }
+}
+.about .container .text span{
+  text-transform: capitalize;
+    margin-bottom: 20px;
+    border: 1px solid var(--main-color);
+    padding: 5px 6px;
+    display: block;
+    width: fit-content;
+}
+.about .container .text .title{
+  font-size: 60px;
+    line-height: 57px;
+    font-weight: 400;
+    padding-bottom: 44px;
+}
+.about .container .text .last{
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 44px;
+}
+.about .container .text ul li{
+  padding-bottom: 24px;
+  font-size: 20px;
+}
+/* start building */
+.building{
+  width: 100%;
+  height: 700px;
+}
+.building .container p{
+  font-size: 60px;
+  line-height: 57px;
+  letter-spacing: -3px;
+  width: 600px;
+}
+@media (max-width:767px) {
+  .building .container p{
+    width: 316px;
+    font-size: 28px;
+    line-height: 27.2px;
+  }
+}
+/* start work */
+.works .container .section .text p:first-of-type{
+  border: 1px solid;
+  padding: 6px 18px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.works .container .section .text .title{
+  font-size: 60px;
+  letter-spacing: -3px;
+  text-align: end;
+  line-height: 57px;
+}
+@media (max-width:767px) {
+  .works .container .section .text .title{
+    font-size: 28px;
+  }
+  .works .container .section img{
+    width: 100%;
+  }
+}
+.works .container .section .text p:last-child{
+  font-size: 18px;
 }

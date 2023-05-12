@@ -7,6 +7,7 @@
   <title>Figma Project</title>
   <!-- main css -->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="photos/Oval 3.png">
   <!-- normalize css -->
   <link rel="stylesheet" href="css/normalize.css">
   <!-- font Awsome -->
@@ -20,14 +21,14 @@
 </head>
 <body>
 <!-- start Navbar -->
-<nav class="navbar navbar-expand-lg ">
+<nav class="navbar navbar-expand-lg sticky-top ">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="photos/Oval 3.png" alt="photo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto  ">
+      <ul class="navbar-nav me-auto bg-white">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">about us</a>
         </li>
@@ -48,7 +49,7 @@
           <a class="nav-link active" aria-current="page" href="#"> FAQs</a>
         </li>
       </ul>
-      <form class="d-flex justify-content-between align-items-center" role="search">
+      <form class="d-flex justify-content-between align-items-center bg-white" role="search">
         <button class="btn" type="submit">log in</button>
         <button class="btn" type="submit">sign up</button>
       </form>
@@ -91,7 +92,7 @@
       <p class="last">Add a Viewer to your team so they can see everything you share, or invite 
         people to individual documents. It’s up to you. Stakeholders can check 
         out designs in their web browser, test prototypes and leave feedback for free.</p>
-      <ul>
+      <ul type="square">
         <li>Shared Cloud Libraries, for a single source of truth</li>
         <li>Prototype previews for user testing and research</li>
         <li>Free developer handoff, right inside the browser</li>
@@ -100,7 +101,25 @@
     </div>
   </div>
 </div>
-<!-- End about -->
+<!-- start building -->
+<div class="building">
+  <div class="container">
+    <p>Building the best space for collaboration.</p>
+  </div>
+</div>
+<!-- start works -->
+<div class="works">
+  <div class="container">
+    <div class="section d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center">
+      <img src="photos/Illustration_4.png" alt="photo">
+      <div class="text d-flex flex-column align-items-start align-items-lg-end">
+        <p>pricing</p>
+        <p class="title">Select a membership level the right price for you.</p>
+        <p>Prices listed in USD. Taxes may apply. <br> By using program you agree to our terms and policies.</p>
+      </div>
+    </div>
+  </div>
+</div>
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/all.min.js"></script>
