@@ -13,11 +13,94 @@
   <link rel="stylesheet" href="css/all.min.css">
   <!-- Bootstrap library -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkalami&family=Cairo:wght@200;300;400;500;600;700&family=Comic+Neue:wght@400;700&family=DynaPuff:wght@400;500;600&family=Josefin+Sans:ital,wght@0,200;0,300;1,300&family=Roboto+Slab:wght@200;300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,500&family=Shantell+Sans:wght@300;400;500&family=Tiro+Devanagari+Hindi:ital@0;1&family=Work+Sans:ital,wght@0,200;0,300;0,500;1,200&display=swap" rel="stylesheet">
 </head>
 <body>
-
-
-
+<!-- start Navbar -->
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="photos/Oval 3.png" alt="photo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto  ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">about us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">How it works</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            pricing
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"> FAQs</a>
+        </li>
+      </ul>
+      <form class="d-flex justify-content-between align-items-center" role="search">
+        <button class="btn" type="submit">log in</button>
+        <button class="btn" type="submit">sign up</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- end Navbar -->
+<!-- start Hero -->
+<div class="hero">
+  <div class="container d-flex flex-column-reverse flex-lg-row-reverse justify-content-between align-items-center  ">
+    <div class="image">
+      <img src="photos/Illustration_1.png" alt="photo">
+    </div>
+    <div class="container-text d-flex flex-column align-items-center align-items-lg-start text-center text-lg-start">
+      <p class="section-1">Always Track & <br> Analyze Your Business <br> Statistics To Succeed.</p>
+      <p class="section-2">A better way to manage your sales, team, clients & marketing <br> — on a single platform. Powerful, affordable & easy.</p>
+      <form action="">
+        <input type="text" placeholder="Enter your email">
+        <input type="submit" value="Get started">
+      </form>
+      <div class="imgs d-flex">
+        <img src="photos/m_visa.png" alt="">
+        <img src="photos/m_mastercard.png" alt="">
+        <img src="photos/m_paypall.png" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End hero -->
+<!-- start about -->
+<div class="about">
+  <div class="container d-flex flex-column-reverse flex-lg-row align-items-center justify-content-between">
+    <div class="image">
+      <img src="photos/Illustration_2.png" alt="">
+    </div>
+    <div class="text">
+      <span>about us</span>
+      <p class="title">Faster, friendlier feedback 
+        loops make life easier.</p>
+      <p class="last">Add a Viewer to your team so they can see everything you share, or invite 
+        people to individual documents. It’s up to you. Stakeholders can check 
+        out designs in their web browser, test prototypes and leave feedback for free.</p>
+      <ul>
+        <li>Shared Cloud Libraries, for a single source of truth</li>
+        <li>Prototype previews for user testing and research</li>
+        <li>Free developer handoff, right inside the browser</li>
+        <li>Two-factor authentication and SSO</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- End about -->
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/all.min.js"></script>
