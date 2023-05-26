@@ -23,20 +23,20 @@
 <!-- start Navbar -->
 <nav class="navbar navbar-expand-lg sticky-top bg-body">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="photos/Oval 3.png" alt="photo"></a>
+    <a class="navbar-brand" href="index.html"><img src="photos/Oval 3.png" alt="photo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span><i class="fa-solid fa-bars"></i></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">About Us</a>
+          <a class="nav-link active" aria-current="page" href="#about">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">How it works</a>
+          <a class="nav-link active" aria-current="page" href="#works">How it works</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#pricing" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Pricing
           </a>
           <ul class="dropdown-menu">
@@ -47,7 +47,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">FaQs</a>
+          <a class="nav-link active" aria-current="page" href="#footer">FaQs</a>
         </li>
       </ul>
       <form class="d-flex align-items-center justify-content-between" role="search">
@@ -60,7 +60,7 @@
 <!-- start Hero -->
 <div class="hero">
   <div class="container d-flex flex-column-reverse flex-lg-row-reverse justify-content-between align-items-center  ">
-    <div class="image">
+    <div class="image pt-5 pt-md-0">
       <img src="photos/Illustration_1.png" alt="photo">
     </div>
     <div class="container-text d-flex flex-column align-items-center align-items-lg-start text-center text-lg-start">
@@ -80,7 +80,7 @@
 </div>
 <!-- End hero -->
 <!-- start about -->
-<div class="about">
+<div class="about" id="about">
   <div class="container d-flex flex-column-reverse flex-lg-row align-items-center justify-content-between">
     <div class="image">
       <img src="photos/Illustration_2.png" alt="">
@@ -108,18 +108,184 @@
   </div>
 </div>
 <!-- start works -->
-<div class="works">
+<div class="works" id="works">
   <div class="container">
     <div class="section d-flex flex-column-reverse flex-lg-row justify-content-between align-items-center">
       <img src="photos/Illustration_4.png" alt="photo">
-      <div class="text d-flex flex-column align-items-start align-items-lg-end">
+      <div class="text d-flex flex-column align-items-start align-items-md-end">
         <p>pricing</p>
         <p class="title">Select a membership level the right price for you.</p>
         <p>Prices listed in USD. Taxes may apply. <br> By using program you agree to our terms and policies.</p>
       </div>
     </div>
+    <div class="cards container pt-5 pb-5 ">
+      <div class="row ">
+        <div class="box ">
+          <h3>49<span>/mo</span> </h3>
+          <ul type="square">A pay-once license, just for you
+            <li>The Mac app yours to keep</li>
+            <li>Beautiful White_level</li>
+            <li>One year of saving Cloud</li>
+          </ul>
+          <a href="#">join</a>
+        </div>
+        <div class="box">
+          <h3>99<span>/mo</span></h3>
+          <ul type="square">Pro account, just for you
+            <li>The Mac app yours to keep</li>
+            <li>One year of Mac updates</li>
+            <li>One year of saving to Cl</li>
+            <li>A personal Cl workspace</li>
+            <li>All tools, just for you</li>
+          </ul>
+          <a href="#">join</a>
+        </div>
+        <div class="box">
+          <h3>299<span>/mo</span> </h3>
+          <ul type="square">A subscription for the whole team
+            <li>Access to the Mac for all</li>
+            <li>A shared Cloud workspace</li>
+            <li>Free Cl access for unlim</li>
+            <li>Easy team management</li>
+            <li>No license key required</li>
+          </ul>
+          <a href="#">join</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+<!-- start question -->
+<div class="question py-5">
+  <div class="container d-flex align-items-center flex-column flex-lg-row">
+    <div class="content">
+      <div class="text">
+        <span class="mb-3 d-block">FAQS</span>
+        <H3 class="">Common Questions.</H3>
+        <p>The online form also provides links to a set of frequently <br>
+          asked questions, other information materials related to <br>
+          the financial disclosure programme.</p>
+      </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              How much does a Teams subscription cost?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Contributors are members of your team who need access to use 
+              the Mac app to create and edit Sketch documents. These prices 
+              don’t include sales tax, which may still apply. Head over to our 
+              pricing page to get full details.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Do I still need to purchase licenses for the Mac app?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Contributors are members of your team who need access to use 
+              the Mac app to create and edit Sketch documents. These prices 
+              don’t include sales tax, which may still apply. Head over to our 
+              pricing page to get full details.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              What are the differences between Contributors and Viewers?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse" aria-expanded="false" aria-controls="flush-collapseTwo">
+              How long does the free Teams subscription trial last?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Contributors are members of your team who need access to use 
+              the Mac app to create and edit Sketch documents. These prices 
+              don’t include sales tax, which may still apply. Head over to our 
+              pricing page to get full details.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Will program for Teams replace volume licensing?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Contributors are members of your team who need access to use 
+              the Mac app to create and edit Sketch documents. These prices 
+              don’t include sales tax, which may still apply. Head over to our 
+              pricing page to get full details.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="image">
+      <img src="photos/Illustration_5.png" alt="photo">
+    </div>
+  </div>
+</div>
+<!-- start footer -->
+<div class="footer py-5 text-center text-md-start" id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="box col-12 col-md-6">
+        <img class="logo pb-4 " src="photos/LogoWhite.png" alt="photo">
+        <div class="imgs pb-4">
+          <img src="photos/social_fb.png" alt="">
+          <img src="photos/social_tw (1).png" alt="">
+          <img src="photos/social_gl.png" alt="">
+          <img src="photos/social_in.png" alt="">
+          <img src="photos/social_yt.png" alt="">
+        </div>
+        <p class="fs-5">Want to recieve our awesome stories?</p>
+        <div class="inputs py-4">
+          <input type="text" placeholder="enter your bassword">
+          <input type="submit" value="subscrib">
+        </div>
+        <span>© 18 Design, all rights reserved.</span>
+      </div>
+      <div class="box col-12 col-md-3">
+        <h3 class="fs-3 pb-2">Email</h3>
+        <p>info@the18.design</p>
+        <p>About us</p>
+        <p>How it works</p>
+        <p>Pricing</p>
+        <p>FAQs</p>
+      </div>
+      <div class="box col-12 col-md-3">
+        <ul>
+          <li class="pb-2">Lead generation</li>
+          <li class="pb-2">Customer engagement</li>
+          <li class="pb-2">Customer support</li>
+          <li class="pb-2">Help Center Articles</li>
+          <li class="pb-2">Outbound Messages</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/all.min.js"></script>
