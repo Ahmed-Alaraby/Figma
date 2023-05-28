@@ -8,7 +8,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 body{
   position: relative;
@@ -24,6 +24,14 @@ body{
   .navbar{
     margin: auto 15px;
   }
+  .navbar .navbar-nav li{
+    margin-left: 0px !important;
+  }
+  .navbar form .btn:first-of-type,
+  .navbar form .btn:last-of-type{
+  width: 130px;
+  margin-left: 0px;
+}
 }
 .navbar .navbar-nav li{
   margin-left: 40px;
@@ -84,7 +92,7 @@ body{
 }
 @media (max-width:767px) {
   .hero .container .container-text .section-1{
-    font-size:40px;
+    font-size:30px;
     letter-spacing: 0;
   }
 }
@@ -132,6 +140,11 @@ body{
 }
 .hero .container .container-text .imgs img{
   margin-right:32px;
+}
+@media (max-width:767px) {
+  .hero .container .container-text .imgs img{
+    margin-right:8px;
+  }
 }
 /* start about */
 .about{
@@ -294,6 +307,11 @@ body{
 .question .container .content .text h3{
   font-size: 80px;
 }
+@media (max-width:767px) {
+  .question .container .content .text h3{
+    font-size: 30px;
+  }
+}
 .question .container .content .text p{
   color: var(--main-color);
   line-height: 28px;
@@ -348,6 +366,15 @@ margin-right: 5px;
   left: -4px;
   font-size: 18px;
   font-weight: 500;
+}
+@media (max-width:767px) {
+  .footer .box .inputs input[type="submit"]{
+    width: 50%;
+    margin-top: 30px;
+  }
+  .footer .box .inputs input[type="text"]{
+    width: 100%;
+  }
 }
 .footer ul li{
   list-style: none;
