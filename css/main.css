@@ -8,7 +8,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 body{
   position: relative;
@@ -388,7 +388,6 @@ margin-right: 5px;
   50%{
     transform: translateY(-10%);
   }
-
 }
 @keyframes left-right{
   0%,100%{
